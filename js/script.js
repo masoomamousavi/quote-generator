@@ -41,7 +41,7 @@ function randomQuote() {
         authorText.innerHTML = quotes.author;
     }
     // check the quote length
-    if (quotes.quote.length > 50) {
+    if (quotes.quote.length > 30) {
         quoteText.classList.add("long-quote")
     } else {
         quoteText.classList.remove("long-quote")
